@@ -1,0 +1,5 @@
+<h1 [ngStyle]="{ color: isAdmin ? 'red' : 'blue' }">{{ title }}</h1>
+
+<button (click)="toggleVisibility()">
+  {{ isAdmin ? "Edit" : "Pas admin" }}
+</button>
